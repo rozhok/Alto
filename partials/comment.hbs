@@ -1,7 +1,19 @@
-{{!-- <div class="comment-container">
+<div class="comment-container">
     <div class="container">
         <div class="comment container medium">
-            If you want to embed comments, this is a good place to do it!
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = "{{url absolute="true"}}";
+                    this.page.identifier = "ghost-{{comment_id}}"
+                };
+                (function() {
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://rozhkov.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
         </div>
     </div>
-</div> --}}
+</div>
