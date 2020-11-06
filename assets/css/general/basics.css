@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap');
 
-                                                                                                     :root {
+:root {
     --primary-color: #49a8e4;
     --primary-text-color: #333;
     --secondary-text-color: #aaa;
@@ -35,6 +34,7 @@ body {
     color: var(--primary-text-color);
     font-family: 'Merriweather', serif;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.65;
     text-rendering: optimizeLegibility;
     word-break: break-word;
