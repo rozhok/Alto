@@ -117,12 +117,12 @@ function offCanvas() {
         }
     });
 
-    jQuery('.dimmer').on('click', function () {
-        if (html.hasClass('canvas-opened')) {
-            html.removeClass('canvas-opened');
-            dimmer('close', 'medium');
-        }
-    });
+    // jQuery('.dimmer').on('click', function () {
+    //     if (html.hasClass('canvas-opened')) {
+    //         html.removeClass('canvas-opened');
+    //         dimmer('close', 'medium');
+    //     }
+    // });
 
     jQuery(document).keyup(function (e) {
         if (e.keyCode == 27 && html.hasClass('canvas-opened')) {
@@ -132,17 +132,17 @@ function offCanvas() {
     });
 }
 
-function dimmer(action, speed) {
-    'use strict';
-
-    var dimmer = jQuery('.dimmer');
-
-    switch (action) {
-        case 'open':
-            dimmer.fadeIn(speed);
-            break;
-        case 'close':
-            dimmer.fadeOut(speed);
-            break;
-    }
-}
+// function dimmer(action, speed) {
+//     'use strict';
+//
+//     var dimmer = jQuery('.dimmer');
+//
+//     switch (action) {
+//         case 'open':
+//             dimmer.fadeIn(speed);
+//             break;
+//         case 'close':
+//             dimmer.fadeOut(speed);
+//             break;
+//     }
+// }
