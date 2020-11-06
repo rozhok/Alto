@@ -107,13 +107,13 @@ function offCanvas() {
     burger.on('click', function () {
         html.toggleClass('canvas-opened');
         html.addClass('canvas-visible');
-        dimmer('open', 'medium');
+        // dimmer('open', 'medium');
     });
 
     canvasClose.on('click', function () {
         if (html.hasClass('canvas-opened')) {
             html.removeClass('canvas-opened');
-            dimmer('close', 'medium');
+            // dimmer('close', 'medium');
         }
     });
 
@@ -127,7 +127,7 @@ function offCanvas() {
     jQuery(document).keyup(function (e) {
         if (e.keyCode == 27 && html.hasClass('canvas-opened')) {
             html.removeClass('canvas-opened');
-            dimmer('close', 'medium');
+            // dimmer('close', 'medium');
         }
     });
 }
