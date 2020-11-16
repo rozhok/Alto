@@ -40,7 +40,10 @@
     opacity: 1;
 }
 
-.dark-mode .menu-item-link,
+.dark-mode .menu-item-link {
+    color: var(--dark-mode-primary-text-color);
+}
+
 .dark-mode .post-meta,
 .dark-mode .post-link.secondary,
 .dark-mode .page-number,

@@ -1,8 +1,8 @@
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 4vw;
-    padding-left: 4vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
     max-width: calc(1140px + 8vw);
     width: 100%;
 }

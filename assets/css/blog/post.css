@@ -36,6 +36,12 @@
     font-size: 20px;
 }
 
+@media (max-width: 767px) {
+    .post-excerpt {
+        font-size: 18px;
+    }
+}
+
 .post-header.big-title .post-title {
     font-size: 44px;
     font-weight: 700;

@@ -23,4 +23,8 @@
     .single-post .post-header {
         margin-top: -30px;
     }
+
+    .single-post .post-content {
+        font-size: 18px;
+    }
 }
