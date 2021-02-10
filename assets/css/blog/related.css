@@ -1,4 +1,5 @@
 .related-posts {
+    overflow-x: hidden;
     margin-top: 60px;
 }
 
