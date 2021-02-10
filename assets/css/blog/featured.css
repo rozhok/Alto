@@ -1,3 +1,7 @@
+.featured-posts-container {
+    overflow-x: hidden;
+}
+
 .featured-posts {
     margin: 45px 0;
 }

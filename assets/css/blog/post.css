@@ -182,6 +182,6 @@
     }
 
     .post:not(.single-post) .post-title {
-        font-size: 36px !important;
+        font-size: 20px !important;
     }
 }
