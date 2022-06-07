@@ -1,7 +1,7 @@
 {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags" as |related|}}
     {{#if related}}
         <section class="related-posts container medium">
-            <h3 class="related-title"><span class="text">Посты на тему:</span></h3>
+            <h3 class="related-title"><span class="text">Дописи на схожі теми:</span></h3>
             <div class="row">
                 {{#foreach related}}
                     <div class="col-md-4 related-column">
